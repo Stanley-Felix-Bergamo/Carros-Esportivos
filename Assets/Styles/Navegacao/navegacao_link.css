@@ -11,6 +11,10 @@
             border-bottom: 2px solid rgba(0, 0, 0, 0.505);
         }
 
+        .navegacao__link-Ativo {
+            color: var(--verde-escuro);
+        }
+
         .navegacao__link:hover {
             color: var(--verde-escuro);
         }

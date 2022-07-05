@@ -1,0 +1,18 @@
+    #navegacao__hamburguer {
+        display: block;
+        width: 20px;
+        border-top: 2px solid var(--verde-escuro);
+
+    }
+
+    #navegacao__hamburguer::after,
+    #navegacao__hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: var(--verde-escuro);
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }

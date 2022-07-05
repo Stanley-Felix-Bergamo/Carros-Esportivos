@@ -1,0 +1,24 @@
+        .navegacao__link {
+            text-decoration: none;
+            font-family: sans-serif;
+            color: var(--verde-claro);
+            font-family: var(--fonte-grossa);
+            font-weight: 500;
+            font-size: 30px;
+            display: block;
+            padding: .5rem;
+            margin: 0 1rem;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.505);
+        }
+
+        .navegacao__link:hover {
+            color: var(--verde-escuro);
+        }
+
+        @media screen and (min-width:1024px) {
+            .navegacao__link {
+                border: none;
+                padding: none;
+                margin: none;
+            }
+        }

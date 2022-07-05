@@ -1,0 +1,32 @@
+    #navegacao__lista {
+        background: var(--Azul-escuro);
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        gap: 0.5rem;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        padding-top: 1rem;
+        display: block;
+    }
+
+    @media screen and (min-width:1024px) {
+        #navegacao__lista {
+            display: flex;
+            position: initial;
+            visibility: initial;
+            overflow-y: initial;
+            transition: none;
+            height: initial;
+            z-index: initial;
+            gap: initial;
+            width: initial;
+            top: initial;
+            right: initial;
+            padding-top: initial;
+        }
+    }

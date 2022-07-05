@@ -1,0 +1,13 @@
+    #cabecalho {
+        box-sizing: border-box;
+        height: 70px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--Azul-escuro);
+    }
+
+    @media screen and (min-width:800px) {
+        #cabecalho {}
+    }

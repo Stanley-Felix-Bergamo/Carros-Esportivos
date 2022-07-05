@@ -1,0 +1,18 @@
+#navegacao.active #navegacao__lista {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+#navegacao.active #navegacao__hamburguer {
+    border: transparent;
+}
+
+#navegacao.active #navegacao__hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+#navegacao.active #navegacao__hamburguer::before {
+    transform: rotate(135deg);
+}

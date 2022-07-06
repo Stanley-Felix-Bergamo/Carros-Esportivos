@@ -3,8 +3,10 @@
     box-shadow: 7px 7px 13px;
     padding: 1rem;
     margin: 2rem;
-    width: 20rem;
+    width: 70vw;
     transition: all 0.3s ease-out;
+    flex-wrap: wrap;
+    background: var(--branco);
 }
 
 .cards__card:hover {
@@ -15,4 +17,12 @@
 
 .cards__card__borda {
     border-right: 5px solid var(--verde-escuro);
+}
+
+
+@media screen and (min-width:1024px) {
+    .cards__card {
+        height: 100px;
+        width: 220px;
+    }
 }

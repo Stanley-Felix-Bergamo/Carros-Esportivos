@@ -5,7 +5,7 @@
     margin: 2rem;
     width: 70vw;
     transition: all 0.3s ease-out;
-    flex-wrap: wrap;
+
     background: var(--branco);
 }
 

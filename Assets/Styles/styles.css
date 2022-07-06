@@ -1,4 +1,6 @@
 @import url('./rest-normalize.css');
+@import url('./banner.css');
+@import url('./container.css');
 @import url('./Root/cores.css');
 @import url('./Root/fontes.css');
 @import url('./Navegacao/navegacao.css');
@@ -8,3 +10,9 @@
 @import url('./Navegacao/navegacao_btn-mobile.css');
 @import url('./Cabecalho/cabecalho.css');
 @import url('./Cabecalho/cabecalho_logo.css');
+@import url('./Leitura/leitura.css');
+@import url('./Leitura/leitura__texto.css');
+@import url('./Leitura/leitura__titulo.css');
+@import url('./Cards/cards.css');
+@import url('./Cards/cards__link.css');
+@import url('./Cards/cards__card.css');

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 :root {
     --fonte-grossa: 'Bebas Neue', cursive, 'Josefin Sans', sans-serif;
+    --fonte-primaria: 'Roboto Slab', serif;
+    --fonte-secundaria: 'Kdam Thmor Pro', sans-serif;
 }

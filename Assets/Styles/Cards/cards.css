@@ -1,0 +1,15 @@
+.cards {
+    align-items: center;
+    justify-content: center;
+}
+
+.cards img {
+    width: 64px;
+    height: 64px;
+}
+
+@media screen and (min-width:1024px) {
+    .cards {
+        display: flex;
+    }
+}

@@ -1,0 +1,11 @@
+.cards__link,
+a {
+    text-decoration: none;
+}
+
+.cards__link {
+    text-align: right;
+    color: var(--verde-escuro);
+    font-family: var(--fonte-grossa);
+    font-weight: 900;
+}

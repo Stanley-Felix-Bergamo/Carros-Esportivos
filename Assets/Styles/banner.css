@@ -1,0 +1,11 @@
+.banner {
+    /* background: url('../Img/Banner.jpg') no-repeat center/cover; */
+    height: Calc(100vw - 70px);
+
+}
+
+@media screen and (min-width:1024px) {
+    .banner {
+        height: calc(100vh - 70px);
+    }
+}

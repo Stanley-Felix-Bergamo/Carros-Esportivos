@@ -2,4 +2,10 @@
     --Azul-escuro: #06244C;
     --verde-claro: #50dba8;
     --verde-escuro: #25A07D;
+    --cinza-claro: #EBECEE;
+
+}
+
+body {
+    background: var(--cinza-claro);
 }

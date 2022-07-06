@@ -1,0 +1,18 @@
+.cards__card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px;
+    padding: 1rem;
+    margin: 2rem;
+    width: 20rem;
+    transition: all 0.3s ease-out;
+}
+
+.cards__card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+.cards__card__borda {
+    border-right: 5px solid var(--verde-escuro);
+}

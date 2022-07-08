@@ -5,6 +5,10 @@
 
 @media screen and (min-width:1024px) {
     .container {
-        margin: 5rem 20rem auto 20rem;
+        margin: 5rem 15rem auto 15rem;
+
     }
 }
+
+
+@media screen and (min-width:1728px) {}

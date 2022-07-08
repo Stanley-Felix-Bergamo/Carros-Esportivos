@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    height: auto;
+    background: var(--Azul-escuro);
+}
+
+footer img {
+    height: 5rem;
+}
+
+footer p {
+    padding-top: 1rem;
+    color: var(--verde-escuro);
+    font-family: var(--fonte-grossa);
+    font-weight: 100;
+}

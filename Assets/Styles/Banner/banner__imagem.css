@@ -1,0 +1,11 @@
+.banner__imagem {
+    background: url('../../Img/Banner-Corvete.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 30vh;
+}
+
+@media screen and (min-width:1024px) {
+    .banner__imagem {
+        height: 70vh;
+    }
+}

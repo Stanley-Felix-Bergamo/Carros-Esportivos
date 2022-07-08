@@ -4,9 +4,6 @@
     --verde-escuro: #25A07D;
     --cinza-claro: #EBECEE;
     --branco: rgba(255, 255, 255, 0.707);
+    --branco-claro: #ffffffe7;
 
-}
-
-body {
-    background: var(--cinza-claro);
 }

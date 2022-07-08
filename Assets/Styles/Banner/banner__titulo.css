@@ -1,0 +1,15 @@
+.banner__titulo {
+    color: var(--verde-escuro);
+    font-family: var(--fonte-grossa);
+    font-size: 1.50rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+}
+
+@media screen and (min-width:1024px) {
+    .banner__titulo {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+}

@@ -1,4 +1,3 @@
-
 <h1 align="center">
     <img alt="Logo" src="https://github.com/Stanley-Felix-Bergamo/Carros-Esportivos/blob/master/Assets/Img/logo.png" width="150px" />
 </h1>
